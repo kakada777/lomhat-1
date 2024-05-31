@@ -78,16 +78,25 @@ body{
     border-top: none;
     outline: none;
 } */
-.container-2{
-    width: 45%;
+.shoes{
+    width: 55%;
+    height: 250px;
 }
 .box-shose{
     width: 100%;
+    height: 200px;
+    margin-left: 20px;
     box-shadow: -8px 5px 15px -5px rgb(20, 20, 20);
     border-radius: 20px;
 }
+.word button{
+   
+    margin-top: -20px;
+    width: 150px;
+    font-size: 12px;
+}
 h1{
-    font-size: 35px;
+    font-size: 30px;
     margin-left: 10px;
 }
 p{
@@ -97,34 +106,40 @@ p{
 }
 .img img{
     margin-left: -11px;
-    width: 240px;
+    width: 200px;
     border-radius: 20px;
 }
-.container-3 .row{
+.container .shorts{
     display: flex;
 }
 .box-shoes-1{
-    width: 50%;
+    width: 45%;
     border-radius: 20px;
 }
-.pant{
-    width: 45%;
+.box-shorts{
+    width: 55%;
+    border-radius: 20px;
+    box-shadow: 10px 5px 20px -5px rgb(20, 20, 20);
+    margin-bottom: 20px;
+}
+.pant-1{
+    width: 55%;
     box-shadow: 10px 7px 20px -5px rgb(20, 20, 20);
     border-radius: 20px;
 }
 .t-shirt{
+    width: 55%;
+    height: 250px;
+}
+.t-shirt-1{
     width: 100%;
+    height: 200px;
     margin-left: 20px;
     box-shadow: -8px 5px 15px -5px rgb(20, 20, 20);
     border-radius: 20px;
     float: right;
 }
-.box-shorts{
-    width: 45%;
-    border-radius: 20px;
-    box-shadow: 10px 5px 20px -5px rgb(20, 20, 20);
-    margin-bottom: 20px;
-}
+
 /* fulter */
 .main-box{
     height: 380px;
