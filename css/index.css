@@ -139,7 +139,12 @@ p{
     border-radius: 20px;
     float: right;
 }
-
+.modal-body img{
+    width: 25px;
+    height: 25px;
+    margin-left: 430px;
+    margin-top:-60px;
+}
 /* fulter */
 .main-box{
     height: 380px;
