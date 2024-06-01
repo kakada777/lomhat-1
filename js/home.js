@@ -4,9 +4,9 @@ let password = document.getElementById("password");
 eyeicon.onclick = function(){
     if(password.type == "password"){
       password.type = "text";
-      eyeicon.src = "open-eye.png";
+      eyeicon.src = "./open-eye.png";
     }else{
       password.type = "password";
-      eyeicon.src = "close-eye.png";
+      eyeicon.src = "./close-eye.png";
     }
 }
