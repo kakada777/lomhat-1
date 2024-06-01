@@ -15,39 +15,57 @@ let filterarray = [];
     let galleryarray = [
         {
             id: 4,
-            name : "Shoes-1",
-            src : "./img shoes/download-1.jpg",
-            desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,tempore.",
+            name : "pant-1",
+            src : "./img pant/images-1.jpg",
+            desc : "Some quick example text to build on the card title and make up the bulk of the card's content.",
         },
         {
             id: 1,
-            name : "Shoes-2",
-            src : "./img shoes/images-2.jpg",
-            desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,tempore.",
+            name : "pant-2",
+            src : "./img pant/images.jpg",
+            desc : "Some quick example text to build on the card title and make up the bulk of the card's content.",
         },
         {
             id: 2,
-            name : "Shoes-3",
-            src : "./img shoes/images-1.jpg",
-            desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,tempore.",
+            name : "pant-3",
+            src : "./img pant/download-6.jpg",
+            desc : "Some quick example text to build on the card title and make up the bulk of the card's content.",
         },
         {
             id: 3,
-            name : "Shoes-4",
-            src : "./img shoes/download.jpg",
-            desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
+            name : "pant-4",
+            src : "./img pant/download-7.jpg",
+            desc : "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        },
+        {
+            id: 5,
+            name : "pant-5",
+            src : "./img pant/download-5.jpg",
+            desc : "Some quick example text to build on the card title and make up the bulk of the card's content.",
         },
         {
             id: 3,
-            name : "Shoes-5",
-            src : "./img shoes/download.jpg",
-            desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
+            name : "pant-6",
+            src : "./img pant/download-4.jpg",
+            desc : "Some quick example text to build on the card title and make up the bulk of the card's content.",
         },
         {
             id: 3,
-            name : "Shoes-6",
-            src : "./img shoes/download.jpg",
-            desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
+            name : "pant-7",
+            src : "./img pant/download-3.jpg",
+            desc : "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        },
+        {
+            id: 3,
+            name : "pant-8",
+            src : "./img pant/download-2.jpg",
+            desc : "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        },
+        {
+            id: 3,
+            name : "pant-9",
+            src : "./img pant/download-1.jpg",
+            desc : "Some quick example text to build on the card title and make up the bulk of the card's content.",
         },
         
     ]
@@ -57,8 +75,8 @@ let filterarray = [];
         for(var i=0;i<currarray.length;i++){
             document.getElementById("card").innerHTML += `
             <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12  mt-3">
-            <div class="card ">
-                <img src="${currarray[i].src}"/>
+            <div class="card">
+                <img src="${currarray[i].src}" width="100%" height="100px"/>
                 <h4 class="text-capitalize ">${currarray[i].name}</h4>
                 <p class="mt-2">${currarray[i].desc}</p>
 
@@ -102,7 +120,3 @@ let filterarray = [];
 
 
     });
-
-
- 
-

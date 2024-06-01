@@ -1,51 +1,38 @@
-let eyeicon = document.getElementById("eyeicon");
-let password = document.getElementById("password");
-
-eyeicon.onclick = function(){
-    if(password.type == "password"){
-      password.type = "text";
-      eyeicon.src = "./open-eye.png";
-    }else{
-      password.type = "password";
-      eyeicon.src = "./close-eye.png";
-    }
-}
-//  function Search
 let filterarray = [];
     let galleryarray = [
         {
             id: 4,
-            name : "Shoes-1",
+            name : "Shoes",
             src : "./img shoes/download-1.jpg",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,tempore.",
         },
         {
             id: 1,
-            name : "Shoes-2",
+            name : "iphone",
             src : "./img shoes/images-2.jpg",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,tempore.",
         },
         {
             id: 2,
-            name : "Shoes-3",
+            name : "samsung",
             src : "./img shoes/images-1.jpg",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,tempore.",
         },
         {
             id: 3,
-            name : "Shoes-4",
+            name : "vivo",
             src : "./img shoes/download.jpg",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
         },
         {
             id: 3,
-            name : "Shoes-5",
+            name : "vivo",
             src : "./img shoes/download.jpg",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
         },
         {
             id: 3,
-            name : "Shoes-6",
+            name : "vivo",
             src : "./img shoes/download.jpg",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
         },
@@ -58,8 +45,8 @@ let filterarray = [];
             document.getElementById("card").innerHTML += `
             <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12  mt-3">
             <div class="card ">
-                <img src="${currarray[i].src}"/>
                 <h4 class="text-capitalize ">${currarray[i].name}</h4>
+                <img src="${currarray[i].src}" width="100%" height="420px"/>
                 <p class="mt-2">${currarray[i].desc}</p>
 
                 <div class="star d-flex">
@@ -69,11 +56,17 @@ let filterarray = [];
                     <i  class=" fa-solid fa-star i-4"></i>
                     <i  class=" fa-solid fa-star i-5"></i>
                 </div>
-                <div class="button d-flex ">
+                <div class="buttun d-flex ">
                     <a href="#" class="btn btn-success">BUY</a>
                     <a href="#" class="btn btn-danger">Next</a>
                 </div>
-                
+                <div class="wrapper">
+                    <div class="click">
+                      <span class="minus">-</span>
+                      <span class="num">01</span>
+                      <span class="plus">+</span>
+                    </div>
+                </div>
             </div>
             </div>
             `
@@ -102,7 +95,3 @@ let filterarray = [];
 
 
     });
-
-
- 
-

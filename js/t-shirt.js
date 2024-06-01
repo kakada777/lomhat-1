@@ -15,38 +15,38 @@ let filterarray = [];
     let galleryarray = [
         {
             id: 4,
-            name : "Shoes-1",
-            src : "./img shoes/download-1.jpg",
+            name : "T-shirt-1",
+            src : "./img t-shirt/download.jpg",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,tempore.",
         },
         {
             id: 1,
-            name : "Shoes-2",
-            src : "./img shoes/images-2.jpg",
+            name : "T-shirt-2",
+            src : "./img t-shirt/download-1.jpg",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,tempore.",
         },
         {
             id: 2,
-            name : "Shoes-3",
-            src : "./img shoes/images-1.jpg",
+            name : "T-shirt-3",
+            src : "./img t-shirt/download-2.jpg",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,tempore.",
         },
         {
             id: 3,
-            name : "Shoes-4",
-            src : "./img shoes/download.jpg",
+            name : "T-shirt-4",
+            src : "./img t-shirt/download-3.jpg",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
         },
         {
             id: 3,
-            name : "Shoes-5",
-            src : "./img shoes/download.jpg",
+            name : "T-shirt-5",
+            src : "./img t-shirt/download-4.jpg",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
         },
         {
             id: 3,
-            name : "Shoes-6",
-            src : "./img shoes/download.jpg",
+            name : "T-shirt-6",
+            src : "./img t-shirt/download.jpg",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
         },
         
@@ -58,7 +58,7 @@ let filterarray = [];
             document.getElementById("card").innerHTML += `
             <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12  mt-3">
             <div class="card ">
-                <img src="${currarray[i].src}"/>
+                <img src="${currarray[i].src}" width="100%" height="500px" />
                 <h4 class="text-capitalize ">${currarray[i].name}</h4>
                 <p class="mt-2">${currarray[i].desc}</p>
 
@@ -102,7 +102,3 @@ let filterarray = [];
 
 
     });
-
-
- 
-

@@ -15,38 +15,38 @@ let filterarray = [];
     let galleryarray = [
         {
             id: 4,
-            name : "Shoes-1",
-            src : "./img shoes/download-1.jpg",
+            name : "Shorts-1",
+            src : "./img shorts/download-4.jpg",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,tempore.",
         },
         {
             id: 1,
-            name : "Shoes-2",
-            src : "./img shoes/images-2.jpg",
+            name : "Shorts-2",
+            src : "./img shorts/download-3.jpg",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,tempore.",
         },
         {
             id: 2,
-            name : "Shoes-3",
-            src : "./img shoes/images-1.jpg",
+            name : "Shorts-3",
+            src : "./img shorts/download-2.jpg",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,tempore.",
         },
         {
             id: 3,
-            name : "Shoes-4",
-            src : "./img shoes/download.jpg",
+            name : "Shorts-4",
+            src : "./img shorts/download-1.jpg",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
         },
         {
             id: 3,
-            name : "Shoes-5",
-            src : "./img shoes/download.jpg",
+            name : "Shorts-5",
+            src : "./img shorts/download.jpg",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
         },
         {
             id: 3,
-            name : "Shoes-6",
-            src : "./img shoes/download.jpg",
+            name : "Shorts-6",
+            src : "./img shorts/download-4.jpg",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
         },
         
@@ -102,7 +102,3 @@ let filterarray = [];
 
 
     });
-
-
- 
-
