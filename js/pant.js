@@ -75,7 +75,7 @@ let filterarray = [];
         for(var i=0;i<currarray.length;i++){
             document.getElementById("card").innerHTML += `
             <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12  mt-3">
-            <div class="card">
+            <div class="card ">
                 <img src="${currarray[i].src}" width="100%" height="100px"/>
                 <h4 class="text-capitalize ">${currarray[i].name}</h4>
                 <p class="mt-2">${currarray[i].desc}</p>
