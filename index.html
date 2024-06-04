@@ -62,16 +62,21 @@
     </div>
     <div class="container head">
       <div class="hand-left">
-        <h1 >
-          The Original Clothing and Shoes
-          <!-- <i class="fa-solid fa-cart-shopping"></i> -->
-        </h1>
+        <h1 > The Original of <span class="auto-type"></span> </h1>
         <p>hello my name is kakakda .i'm own bussiness man in</p>
         <button class="btn btn-dark">Get Started</button>
       </div>
       <div class="hand-right">
         <img src="`../../img index/pexels-mnzoutfits-1598505.png" alt="" />
       </div>
+    </div>
+    <div class="container">
+      <div class="frond"></div>
+      <div class="central">
+        <div></div>
+        <div></div>
+      </div>
+      <div class="end"></div>
     </div>
     <div class="container-4" style="display: flex;" data-aos="fade-down">
       <div class="box-slide">
@@ -289,9 +294,17 @@
   </body>
   <script src="./js/home.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </html>
 <script>
   AOS.init();
+
+  var typed = new Typed(".auto-type",{
+    strings : [" Shoes "," T-shirt "," Shorts "],
+    typeSpeed : 100,
+    backSpeed : 100,
+    loop : true 
+  })
 </script>
 <!-- <div class="container my-3">
   <div id="carouselExampleIndicators" class="carousel slide carousel-fade">
