@@ -14,57 +14,57 @@ eyeicon.onclick = function(){
 let filterarray = [];
     let galleryarray = [
         {
-            id: 4,
+            price :"$26.00",
             name : "pant-1",
-            src : "./img pant/images-1.jpg",
+            src : "./img pant/pic-1.jpg",
             desc : "Some quick example text to build on the card title and make up the bulk of the card's content.",
         },
         {
-            id: 1,
+            price :"$22.50",
             name : "pant-2",
-            src : "./img pant/images.jpg",
+            src : "./img pant/pic-2.jpg",
             desc : "Some quick example text to build on the card title and make up the bulk of the card's content.",
         },
         {
-            id: 2,
+            price :"$21.50",
             name : "pant-3",
-            src : "./img pant/download-6.jpg",
+            src : "./img pant/pic-6.jpg",
             desc : "Some quick example text to build on the card title and make up the bulk of the card's content.",
         },
         {
-            id: 3,
+            price :"$21.50",
             name : "pant-4",
-            src : "./img pant/download-7.jpg",
+            src : "./img pant/pic-7.jpg",
             desc : "Some quick example text to build on the card title and make up the bulk of the card's content.",
         },
         {
-            id: 5,
+            price :"$28.00",
             name : "pant-5",
-            src : "./img pant/download-5.jpg",
+            src : "./img pant/pic-5.jpg",
             desc : "Some quick example text to build on the card title and make up the bulk of the card's content.",
         },
         {
-            id: 3,
+            price :"$22.00",
             name : "pant-6",
-            src : "./img pant/download-4.jpg",
+            src : "./img pant/pic-4.jpg",
             desc : "Some quick example text to build on the card title and make up the bulk of the card's content.",
         },
         {
-            id: 3,
+            price :"$20.50",
             name : "pant-7",
-            src : "./img pant/download-3.jpg",
+            src : "./img pant/pic-3.jpg",
             desc : "Some quick example text to build on the card title and make up the bulk of the card's content.",
         },
         {
-            id: 3,
+            price :"$25.00",
             name : "pant-8",
-            src : "./img pant/download-2.jpg",
+            src : "./img pant/pic-8.jpg",
             desc : "Some quick example text to build on the card title and make up the bulk of the card's content.",
         },
         {
-            id: 3,
+            price :"$24.00",
             name : "pant-9",
-            src : "./img pant/download-1.jpg",
+            src : "./img pant/pic-9.jpg",
             desc : "Some quick example text to build on the card title and make up the bulk of the card's content.",
         },
         
@@ -90,6 +90,7 @@ let filterarray = [];
                 <div class="button d-flex ">
                     <a href="#" class="btn btn-success">BUY</a>
                     <a href="#" class="btn btn-danger">Next</a>
+                    <h5>${currarray[i].price}</h5>
                 </div>
                 
             </div>

@@ -22,7 +22,7 @@ let filterarray = [];
         {
             price:"$35.00",
             name : "Shoes-2",
-            src : "./img shoes/luis-felipe-lins-LG88A2XgIXY-unsplash.png",
+            src : "./img shoes/luis-felipe-lins-J2-wAQDckus-unsplash.png",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,tempore.",
         },
         {
@@ -59,6 +59,36 @@ let filterarray = [];
             price:"$18.00",
             name : "Shoes-8",
             src : "./img shoes/xavier-teo-SxAXphIPWeg-unsplash.png",
+            desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
+        },
+        {
+            price:"$25.50",
+            name : "Shoes-9",
+            src : "./img shoes/brad-starkey-Bowrbqz1kgw-unsplash.png",
+            desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
+        },
+        {
+            price:"$18.00",
+            name : "Shoes-10",
+            src : "./img shoes/solesavy-LgzM6R0ojoE-unsplash.png",
+            desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
+        },
+        {
+            price:"$45.00",
+            name : "Shoes-11",
+            src : "./img shoes/mojtaba-mosayebzadeh-CFYS5qMSuKo-unsplash.png",
+            desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
+        },
+        {
+            price:"$18.00",
+            name : "Shoes-12",
+            src : "./img shoes/mnz-OJTNpLmsSHs-unsplash.png",
+            desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
+        },
+        {
+            price:"$18.00",
+            name : "Shoes-13",
+            src : "./img shoes/jeff-tumale-SD9Jyl1xNQ4-unsplash.png",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
         },
         

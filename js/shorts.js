@@ -14,39 +14,51 @@ eyeicon.onclick = function(){
 let filterarray = [];
     let galleryarray = [
         {
-            id: 4,
+            price :"$11.00",
             name : "Shorts-1",
             src : "./img shorts/download-4.jpg",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,tempore.",
         },
         {
-            id: 1,
+            price :"$10.50",
             name : "Shorts-2",
             src : "./img shorts/download-3.jpg",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,tempore.",
         },
         {
-            id: 2,
+            price :"$15.00",
             name : "Shorts-3",
             src : "./img shorts/download-2.jpg",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,tempore.",
         },
         {
-            id: 3,
+            price :"$16.00",
             name : "Shorts-4",
             src : "./img shorts/download-1.jpg",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
         },
         {
-            id: 3,
+            price :"$12.50",
             name : "Shorts-5",
             src : "./img shorts/download.jpg",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
         },
         {
-            id: 3,
+            price :"$15.50",
             name : "Shorts-6",
             src : "./img shorts/download-4.jpg",
+            desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
+        },
+        {
+            price :"$13.00",
+            name : "Shorts-6",
+            src : "./img shorts/download-6.jpg",
+            desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
+        },
+        {
+            price :"$11.25",
+            name : "Shorts-6",
+            src : "./img shorts/download-5.jpg",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
         },
         
@@ -72,6 +84,7 @@ let filterarray = [];
                 <div class="button d-flex ">
                     <a href="#" class="btn btn-success">BUY</a>
                     <a href="#" class="btn btn-danger">Next</a>
+                    <h5>${currarray[i].price}</h5>
                 </div>
                 
             </div>
