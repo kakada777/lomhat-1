@@ -27,6 +27,13 @@ form > img{
 #card{
     transition:  all 0.5 ease;
     cursor: pointer;
+    border: none;
+}
+.card{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
 }
 .star i{
     color: gold;
@@ -45,7 +52,7 @@ form > img{
 }
 .card img{
     width: 100%;
-    height: 390px;
+    height: 100%;
     border-radius: 15px;
 }
 h4{
@@ -61,4 +68,9 @@ p{
    width: 60px;
    margin-left: 10px;
    margin-bottom: 10px;
+}
+.button h5{
+    color: rgb(128, 127, 125);
+    margin-left: 100px;
+    padding-top: 5px ;
 }

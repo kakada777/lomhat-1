@@ -14,39 +14,51 @@ eyeicon.onclick = function(){
 let filterarray = [];
     let galleryarray = [
         {
-            id: 4,
+            price:"$25.00",
             name : "Shoes-1",
-            src : "./img shoes/download-1.jpg",
+            src : "./img shoes/omar-prestwich-jLEGurepDco-unsplash.png",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,tempore.",
         },
         {
-            id: 1,
+            price:"$35.00",
             name : "Shoes-2",
-            src : "./img shoes/images-2.jpg",
+            src : "./img shoes/luis-felipe-lins-LG88A2XgIXY-unsplash.png",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,tempore.",
         },
         {
-            id: 2,
+            price:"$40.00",
             name : "Shoes-3",
-            src : "./img shoes/images-1.jpg",
+            src : "./img shoes/super-straho-5BMPrXBFTI8-unsplash.png",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,tempore.",
         },
         {
-            id: 3,
+            price:"$19.00",
             name : "Shoes-4",
-            src : "./img shoes/download.jpg",
+            src : "./img shoes/domino-studio-164_6wVEHfI-unsplash.png",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
         },
         {
-            id: 3,
+            price:"$52.50",
             name : "Shoes-5",
-            src : "./img shoes/download.jpg",
+            src : "./img shoes/andres-jasso-PqbL_mxmaUE-unsplash.png",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
         },
         {
-            id: 3,
+            price:"$32.00",
             name : "Shoes-6",
-            src : "./img shoes/download.jpg",
+            src : "./img shoes/maksim-larin-NOpsC3nWTzY-unsplash.png",
+            desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
+        },
+        {
+            price:"$39.00",
+            name : "Shoes-7",
+            src : "./img shoes/maksim-larin-ezdrvzA1hZw-unsplash.png",
+            desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
+        },
+        {
+            price:"$18.00",
+            name : "Shoes-8",
+            src : "./img shoes/xavier-teo-SxAXphIPWeg-unsplash.png",
             desc : "Loream ipsum dolor sit amet consectetur adipisicing elit. Doloribus,temporerrrrrrr.",
         },
         
@@ -61,7 +73,6 @@ let filterarray = [];
                 <img src="${currarray[i].src}"/>
                 <h4 class="text-capitalize ">${currarray[i].name}</h4>
                 <p class="mt-2">${currarray[i].desc}</p>
-
                 <div class="star d-flex">
                     <i  class="fa-solid fa-star i-1"></i>
                     <i  class=" fa-solid fa-star i-2"></i>
@@ -72,6 +83,7 @@ let filterarray = [];
                 <div class="button d-flex ">
                     <a href="#" class="btn btn-success">BUY</a>
                     <a href="#" class="btn btn-danger">Next</a>
+                    <h5>${currarray[i].price}</h5>
                 </div>
                 
             </div>
