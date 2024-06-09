@@ -102,3 +102,29 @@ let filterarray = [];
 
 
     });
+
+    const id = document.getElementById('id');
+    const name = document.getElementById('name');
+    const email = document.getElementById('email');
+    const pw = document.getElementById('password');
+    // console.log(id);
+    // console.log(name);
+    // console.log(email);
+    // console.log(password);
+
+    var tbody='';
+    const showTable = () =>{
+        tbody+=`
+        <tr class="table-danger">
+            <td>${id.value}</td>
+            <td>${name.value}</td>
+            <td>${email.value}</td>
+            <td>${pw.value}</td>
+        </tr>
+        `;
+        document.querySelector('tbody').innerHTML = tbody;
+        id.value='';
+        name.value='';
+        email.value='';
+        pw.value='';
+    }
