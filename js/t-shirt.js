@@ -63,17 +63,29 @@ let filterarray = [];
                     <p class="mt-2">${currarray[i].desc}</p>
 
                     <div class="star d-flex">
+                    <div>
                         <i  class="fa-solid fa-star i-1"></i>
                         <i  class=" fa-solid fa-star i-2"></i>
                         <i  class=" fa-solid fa-star i-3"></i>
                         <i  class=" fa-solid fa-star i-4"></i>
                         <i  class=" fa-solid fa-star i-5"></i>
                     </div>
-                    <div class="button d-flex ">
+                    <div class="size">
+                        <button class="btn btn-outline-dark">S</button>
+                        <button class="btn btn-outline-dark">M</button>
+                        <button class="btn btn-outline-dark">L</button>
+                        <button class="btn btn-outline-dark">XL</button>
+                    </div>
+                </div>
+                <div class="button d-flex ">
+                    <div>
                         <a href="#" class="btn btn-success">BUY</a>
                         <a href="#" class="btn btn-danger">Next</a>
+                    </div>
+                    <div>
                         <h5>${currarray[i].price}</h5>
                     </div>
+                </div>
                 </div>
             </div>
             `

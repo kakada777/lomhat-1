@@ -104,16 +104,28 @@ let filterarray = [];
                 <h4 class="text-capitalize ">${currarray[i].name}</h4>
                 <p class="mt-2">${currarray[i].desc}</p>
                 <div class="star d-flex">
-                    <i  class="fa-solid fa-star i-1"></i>
-                    <i  class=" fa-solid fa-star i-2"></i>
-                    <i  class=" fa-solid fa-star i-3"></i>
-                    <i  class=" fa-solid fa-star i-4"></i>
-                    <i  class=" fa-solid fa-star i-5"></i>
+                    <div>
+                        <i  class="fa-solid fa-star i-1"></i>
+                        <i  class=" fa-solid fa-star i-2"></i>
+                        <i  class=" fa-solid fa-star i-3"></i>
+                        <i  class=" fa-solid fa-star i-4"></i>
+                        <i  class=" fa-solid fa-star i-5"></i>
+                    </div>
+                    <div class="size">
+                        <button class="btn btn-outline-dark">30</button>
+                        <button class="btn btn-outline-dark">31</button>
+                        <button class="btn btn-outline-dark">32</button>
+                        <button class="btn btn-outline-dark">33</button>
+                    </div>
                 </div>
                 <div class="button d-flex ">
-                    <a href="#" class="btn btn-success">BUY</a>
-                    <a href="#" class="btn btn-danger">Next</a>
-                    <h5>${currarray[i].price}</h5>
+                    <div>
+                        <a href="#" class="btn btn-success">BUY</a>
+                        <a href="#" class="btn btn-danger">Next</a>
+                    </div>
+                    <div>
+                        <h5>${currarray[i].price}</h5>
+                    </div>
                 </div>
                 
             </div>

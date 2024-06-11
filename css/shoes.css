@@ -34,11 +34,55 @@ form > img{
 
 .star i{
     color: gold;
-    padding: 2px;
+    
     margin-bottom: 10px;
 }
 .star i:hover{
     color: black;
+}
+.star .size{
+    margin-left: 25px;
+}
+.size button:hover{
+    transition: 0.5s;
+    margin-bottom: 2px;
+
+}
+.star button{
+    
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+@media (max-width:990px) {
+    .star .size{
+        margin-left: 35px;
+    }
+    .star button{
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+}
+@media (max-width:1200px) {
+    .star .size{
+        margin-left: 15px;
+    }
+    .star button{
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+}
+@media (max-width:750px) {
+    .star{
+        justify-content: space-around;
+    }
+    .star .size{
+        margin-left: 35px;
+    }
+    .star button{
+        justify-content: space-around;
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
 }
 .row .card{
     border-radius: 15px;
@@ -71,6 +115,26 @@ p{
     color: rgb(128, 127, 125);
     margin-left: 90px;
     padding-top: 5px ;
+}
+@media (max-width:750px) {
+    .button{
+        justify-content: space-around;
+    }
+    .button h5{
+        color: rgb(128, 127, 125);
+        margin-left: 90px;
+        padding-top: 5px ;
+    }
+}
+@media (max-width:1200px) {
+    .button{
+        justify-content: space-around;
+    }
+    .button h5{
+        color: rgb(128, 127, 125);
+        margin-left: 80px;
+        padding-top: 5px ;
+    }
 }
 
 
