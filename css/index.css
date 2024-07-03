@@ -333,13 +333,6 @@ p{
     color: white;
     cursor: pointer;
 }
-/* .box-2 i:hover{
-    filter: blur(15px);
-    z-index: -1;
-    position: absolute;
-    left: 0;
-    top: 0;
-} */
 .box-2 i:hover{
     color: rgb(93, 89, 89);
 }
