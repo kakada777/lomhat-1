@@ -11,7 +11,7 @@ eyeicon.onclick = function(){
     }
 }
 //  function Search
-let filterarray = [];
+    let filterarray = [];
     let galleryarray = [
         {
             price :"$26.00",
