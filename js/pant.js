@@ -133,3 +133,19 @@ eyeicon.onclick = function(){
 
 
     });
+    // <input type="button" value="S"  id="btn1"></input>
+    // $(document).ready(function(){
+    //     var i=1;
+    //     $('#btn1').click(function(){
+            
+            
+    //         if(i==1){
+    //             console.log("1")
+    //             $(this).css({"background-color" : "red"})
+    //             i++;
+    //         }else{
+    //             $(this).css({"background-color" : "black"})
+    //             i=1;
+    //         }
+    //     })
+    // })
